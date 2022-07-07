@@ -7,7 +7,7 @@ https://www.facebook.com/wabymaze
 https://www.instagram.com/wabymaze  
 https://itunes.apple.com/fr/app/wabymaze/id1182917117?mt=8  
 
-##develop
+## develop
 ```cmd
 npm i
 npm run serve
