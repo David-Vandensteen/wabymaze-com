@@ -1,0 +1,24 @@
+{
+  "name": "wabymaze-com",
+  "version": "1.0.0",
+  "description": "Single web page for ***WabyMaze*** iOS game",
+  "main": "index.js",
+  "scripts": {
+    "http-server": "npx http-server src/",
+    "browser": "start http://127.0.0.1:8080",
+    "serve": "npm-run-all --parallel http-server browser"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/David-Vandensteen/wabymaze-com.git"
+  },
+  "author": "David Vandensteen <dvandensteen@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/David-Vandensteen/wabymaze-com/issues"
+  },
+  "homepage": "https://github.com/David-Vandensteen/wabymaze-com#readme",
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
