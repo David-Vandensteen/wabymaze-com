@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "Single web page for ***WabyMaze*** iOS game",
   "scripts": {
+    "start": "npm run http-server",
+    "mon": "npx -y nodemon --watch src -e html,js,svg,ico,png,jpg",
     "http-server": "npx -y http-server src/",
-    "browser": "npx -y opener http://127.0.0.1:8080",
-    "serve": "npm-run-all --parallel http-server browser"
+    "open-browser": "npx -y opener http://127.0.0.1:8080",
+    "serve": "npm-run-all --parallel http-server open-browser mon"
   },
   "repository": {
     "type": "git",
