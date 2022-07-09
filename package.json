@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Single web page for ***WabyMaze*** iOS game",
   "scripts": {
-    "http-server": "npx http-server src/",
-    "browser": "start http://127.0.0.1:8080",
+    "http-server": "npx -y http-server src/",
+    "browser": "npx -y opener http://127.0.0.1:8080",
     "serve": "npm-run-all --parallel http-server browser"
   },
   "repository": {
